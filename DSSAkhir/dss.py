@@ -26,7 +26,7 @@ def schizophrenia():
     st.title("Schizophrenia 🤯")
 
     name = st.text_input("Name")
-    age = st.slider("Age", 0, 120, 0    )
+    age = st.slider("Age", 0, 120, 0)
     gender = st.selectbox("Gender", ["Male", "Female"])
     marital_status = st.selectbox("Marital Status", ["Single", "Married", "Divorced", "Widowed"])
     fatigue = st.slider("Fatigue", 0, 10, 0)
