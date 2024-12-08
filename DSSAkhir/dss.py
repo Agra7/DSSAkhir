@@ -32,7 +32,7 @@ def schizophrenia():
     fatigue = st.slider("Fatigue", 0, 10, 0)
     slowing = st.slider("Slowing", 0, 10, 0)
     pain = st.slider("Pain", 0, 10, 0)
-    hygiene = st.slider("Hygiene", 0, 10, 0)
+    hygiene = st.slider("Hygiene", 10, 0, 10)
     movement = st.slider("Movement", 10, 0, 10)
 
     if st.button("Submit"):
