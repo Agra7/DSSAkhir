@@ -8,7 +8,7 @@ import numpy as np
 import pickle
 
 def load_model():
-    with open('model_terbaru.pkl', 'rb') as model_file:
+    with open('DSSAkhir/model_terbaru.pkl', 'rb') as model_file:
         model_dict = pickle.load(model_file)
         print("Loaded dictionary keys:", model_dict.keys())
     return model_dict
