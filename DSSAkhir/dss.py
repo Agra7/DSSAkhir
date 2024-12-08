@@ -33,7 +33,7 @@ def schizophrenia():
     slowing = st.slider("Slowing", 0, 10, 0)
     pain = st.slider("Pain", 0, 10, 0)
     hygiene = st.slider("Hygiene", 0, 10, 0)
-    movement = st.slider("Movement", 0, 10, 0)
+    movement = st.slider("Movement", 10, 0, 10)
 
     if st.button("Submit"):
         gender_num = 1 if gender == "Male" else 0
